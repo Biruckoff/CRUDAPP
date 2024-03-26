@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+</head>
+<body>
+<h1>Product</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <td th:text="${product.id}"></td>
+    </tr>
+    <tr>
+        <th>Article</th>
+        <td th:text="${product.article}"></td>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <td th:text="${product.name}"></td>
+    </tr>
+    <tr>
+        <th>Description</th>
+        <td th:text="${product.description}"></td>
+    </tr>
+    <tr>
+        <th>Category</th>
+        <td th:text="${product.category}"></td>
+    </tr>
+    <tr>
+        <th>Price</th>
+        <td th:text="${product.price}"></td>
+    </tr>
+    <tr>
+        <th>Quantity</th>
+        <td th:text="${product.quantity}"></td>
+    </tr>
+    <tr>
+        <th>Last Quantity Update</th>
+        <td th:text="${product.lastQuantityChangeTimestamp}"></td>
+    </tr>
+    <tr>
+        <th>Created At</th>
+        <td th:text="${product.creationTimestamp}"></td>
+    </tr>
+</table>
+</body>
+</html>
